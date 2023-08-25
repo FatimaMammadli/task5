@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+}
+
+.list li{
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    color:white;
+    padding:15px;
+    transition: 1s;
+    list-style-position: inside;
+}
+.list{
+    width: 400px;
+    margin: 0 auto;
+    height: auto;
+    padding: 0;
+    
+}
+
+.list li:first-child{
+    background-color: black;
+
+}
+.list li:last-child{
+    background-color: aqua;
+    color: #000;
+}
+
+.list li:nth-child(2){
+    background-color:#C0C0C0;
+}
+.list li:nth-child(3){
+background-color: gray
+}
+.list li:nth-child(4){
+    background-color: #3498db;
+}
+.list li:nth-child(5){
+    background-color: maroon;
+}
+.list li:nth-child(6){
+    background-color: red
+}
+.list li:nth-child(7){
+    background-color: purple;
+}
+.list li:nth-child(8){
+    background-color: #FF00FF;
+    color: #000;
+}
+.list li:nth-child(9){
+    background-color: green;
+}
+.list li:nth-child(10){
+    background-color: lime;
+    color: #000;
+}
+.list li:nth-child(11){
+    background-color: olive;
+}
+.list li:nth-child(12){
+    background-color: yellow;
+    color: #000;
+}
+.list li:nth-child(13){
+    background-color: navy;
+}
+.list li:nth-child(14){
+    background-color: blue;
+}
+.list li:nth-child(15){
+    background-color: teal;
+}
+ .list li:hover {
+    cursor: pointer;
+    color:black;
+    background-color: white; 
+}
+
+
